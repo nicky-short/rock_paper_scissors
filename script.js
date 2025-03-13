@@ -5,14 +5,24 @@ function getComputerChoice(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 if (getComputerChoice()===1) {
-    console.log("Rock");
+    computerChoice="rock";
 }
 else if (getComputerChoice()===2) {
-    console.log("Paper");
+    computerChoice="paper";
 }
 else {
-    console.log("Scissors");
+    computerChoice="scissors";
 }
 
 
+function getHumanChoice() {
+    let humanChoice=prompt("Rock, Paper, or Scissors?");
+    return humanChoice
+}
 
+var humanScore=0;
+var computerScore=0;
+
+function playRound(humanChoice, computerChoice) {
+    
+}
