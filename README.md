@@ -6,8 +6,10 @@ Hello!  Init. commit for this will be the index.html file, with the script.js li
 
 1.  for "getComputerChoice" I will use the math.random fucntion, multiplied it by 3, add 1, and round down to the nearest integer.
     - this will give me the computerChoice, a random number generation of 1, 2, or 3.
-        - 1 will be ROCK
-        - 2 will be PAPER
+        - 1 will be rock
+        - 2 will be paper
         - 3 will be scissors
-2. Site will prompt user to enter Rock/Paper/Scissors, and will log result as the humanChoice
-3.  humanScore and computerScore will start at 0, and a round will be played, which will potentially increment each user's score, depending on the conditions.
+2. Site will prompt user to enter Rock/Paper/Scissors, and will log result as the humanChoice.  will be lowercased to match computerchoice
+3. Game logic of RPS will be declared in the "playround" function -->rules for who will win are in here
+4. playGame function will direct program to play 5 rounds, and increment human and computer scores depending on winner
+5. 
