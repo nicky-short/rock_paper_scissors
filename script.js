@@ -59,9 +59,19 @@ function playGame(){
     for (i=0; i<5; i++){
         playRound(getHumanChoice(), getComputerChoice());
     }
-        console.log("Computer: " + humanScore);
-        console.log("You: " + computerScore);
+        console.log("Computer: " + computerScore);
+        console.log("You: " + humanScore);
+        
+        if (humanScore > computerScore) {
+            console.log("YOU ARE THE WINNER OF THIS GAME!");
         }
+        else if (humanScore < computerScore){
+            console.log("YOU ARE THE LOSER OF THIS GAME");
+        }
+        else {
+            console.log("TIE GAME!");
+        }    
+     }
 
 
 
