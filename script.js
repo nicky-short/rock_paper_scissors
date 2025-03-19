@@ -12,11 +12,11 @@ function getComputerChoice() {
     return computerChoice
     }
 
-function getHumanChoice(){
+/*function getHumanChoice(){
     humanChoice=prompt("Rock, Paper, or Scissors?").toLowerCase();
     return humanChoice
 }
-
+*/
 
     function playRound(humanChoice, computerChoice) {
         console.log("You chose: " + humanChoice);

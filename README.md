@@ -13,3 +13,6 @@ Hello!  Init. commit for this will be the index.html file, with the script.js li
 3. Game logic of RPS will be declared in the "playround" function -->rules for who will win are in here
 4. playGame function will direct program to play 5 rounds, and increment human and computer scores depending on winner
 5. winner of the 5 round game will be announced (logged) at the end of the 5 rounds
+
+--------------------------------------------------------------------------------------------------------
+
