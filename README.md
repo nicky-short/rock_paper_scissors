@@ -15,4 +15,10 @@ Hello!  Init. commit for this will be the index.html file, with the script.js li
 5. winner of the 5 round game will be announced (logged) at the end of the 5 rounds
 
 --------------------------------------------------------------------------------------------------------
+ RPS UI
 
+ 1.  alternate git branch for UI version of RPS game
+ 2.  built layout of the site with HTML and CSS
+ 3.  removed console log gameplay elements in the JS, added logic to process player choices though button clicks
+ 4.  created manitupaltable dom elements to show player score, computer and human choices, and result of rounds
+ 5.  crated game over screen that would show winner of the 5 round game - with play again button
