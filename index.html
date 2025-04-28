@@ -3,16 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nick's Rock Paper Scissors Game</title>
+    <title>nick's "rock" "paper" "scissors"</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+<h1 class="title">"rock"     "paper"     "scissors"</h1>
+<div class="game-area">
+    <div class="humanInfo">
+        <div id="humanDisplay"></div>
+        <h2 id="humanScoreCount">YOUR SCORE: 0</h2>
+    </div>
+    <img class="main-image" src="img/rps.jpg" alt="rock/paper/scissors" height="500px" width="500px">
 
+
+    <div class="compInfo">
+        <div id="computerDisplay"></div>
+        <h2 id="computerScoreCount">COMPUTER SCORE: 0</h2>
+    </div>
+</div>
     
+    <div id="result"></div>
+    <h2> Make Your Choice:</h2> 
+    <div class="humanChoiceContainer">
+
+            <button id="rock" class="choice">
+                ROCK
+            </button>
+            <button id="paper" class="choice">
+                PAPER
+            </button>
+            <button id="scissors" class="choice">
+                SCISSORS
+            </button>
+    </div>
+    
+        
+
+
+<div class="footer">
+    <p>nick made this game --- <a href="https://github.com/nicky-short">https://github.com/nicky-short</a></p>
+</div>
 
 
 
-
-<script src="script.js""></script>
+<div id="gameOverScreen">
+    <h1 id="winnerMessage">You Win!</h1>
+    <button id="restartButton">Play Again?</button>
+  </div>
+<script src="script.js"></script>
     
 </body>
 </html>
